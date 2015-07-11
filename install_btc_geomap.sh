@@ -1,6 +1,6 @@
 #!/bin/sh
 #-----------------------------------------------------------------------------
-# Example install
+# Example install of Bitcoin Ticker Map
 # Taken from a fresh Ubuntu amazon ec2 instance running Ubuntu 14.04
 # This will install to your home directory. For security reasons you may want to create a new user to run docker and socket.io within their own userspace
 # Please use caution when running this in an existing environment, as it is intended to be used in a fresh environment with no existing configuration. 

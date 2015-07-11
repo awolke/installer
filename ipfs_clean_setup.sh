@@ -12,10 +12,10 @@ sudo apt-get upgrade -y
 sudo apt-get install npm -y
 
 cd /usr/local/
-wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz
+sudo wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz
 sudo tar -xzf go1.4.2linux-amd64.tar.gz
 
-sudo echo "export PATH=$PATH:/usr/local/go/bin">> /etc/profile
+# sudo echo "export PATH=$PATH:/usr/local/go/bin">> /etc/profile
 
 sudo echo export "GOROOT=/usr/local/go">> ~/.bashrc
 sudo echo export "export GOPATH=$HOME/go">> ~/.bashrc

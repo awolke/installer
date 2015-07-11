@@ -1,6 +1,6 @@
 #!/bin/sh
 #-------------------------------------------------------------
-# Install-Script - Docker
+# Install-Script - BTC - GEOIP Map Ticker
 # Base System Ubuntu 14.04
 # This will install to your home directory. For security reasons you may want to create a new user to run docker and socket.io within their own userspace
 # Please use caution when running this in an existing environment, as it is intended to be used in a fresh environment with no existing configuration. 

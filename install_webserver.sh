@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # Install some usefull packages (colordiff,pwgen,rsync,nano)
-aptitude -y install colordiff mlocate ntp pwgen rsync unzip nano enscript
+aptitude -y install colordiff mlocate ntp pwgen rsync unzip nano enscript git
 
 # Install Apache / SQL / PHP Support packages
 apt-get install apache2 apache2.2-common apache2-doc apache2-mpm-prefork apache2-utils libexpat1 ssl-cert libapache2-mod-php5 php5 php5-common php5-gd php5-mysql php5-imap  php5-cli php5-cgi libapache2-mod-fcgid apache2-suexec php-pear php-auth php5-curl php5-mcrypt mcrypt libapache2-mod-suphp libruby libapache2-mod-ruby libapache2-mod-python libapache2-mod-perl2 php5-gd php5-idn php-pear php5-imagick php5-memcache php5-mhash php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl php5-json
